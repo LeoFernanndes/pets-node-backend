@@ -3,46 +3,10 @@ import PetDto from "../../dtos/pets/PetDto";
 import BaseRepository from "../base/BaseRepository";
 import PetsRepositoryInterface from "./PetsRepositoryInterface";
 import PetUpdateDto from "../../dtos/pets/PetUpdateDto";
+import {petsSeed} from "./petsSeed";
 
 
-const initialPets: any = [
-    {
-        "id": "pet_1",
-        "name": "Toninho",
-        "age": "2",
-        "sex": "male",
-        "size": "small",
-        "photos": [],
-        "weight": "10",
-        "description": "black with some light brown",
-        "behavior": "easygoing",
-        "observations": ""
-    },
-    {
-        "id": "pet_2",
-        "name": "Toninho",
-        "age": "2",
-        "sex": "male",
-        "size": "small",
-        "photos": [],
-        "weight": "10",
-        "description": "black with some light brown",
-        "behavior": "easygoing",
-        "observations": ""
-    },
-    {
-        "id": "pet_3",
-        "name": "Toninho",
-        "age": "2",
-        "sex": "male",
-        "size": "small",
-        "photos": [],
-        "weight": "10",
-        "description": "black with some light brown",
-        "behavior": "easygoing",
-        "observations": ""
-    }
-];
+const initialPets: any = petsSeed;
 
 export default class PetsInMemoryRepository extends BaseRepository implements PetsRepositoryInterface{
     async createPet(petCreateDto: PetCreateDto): Promise<PetDto> {
