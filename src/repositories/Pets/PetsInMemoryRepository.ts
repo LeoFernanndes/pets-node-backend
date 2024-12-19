@@ -4,11 +4,12 @@ import BaseRepository from "../base/BaseRepository";
 import PetsRepositoryInterface from "./PetsRepositoryInterface";
 import PetUpdateDto from "../../dtos/pets/PetUpdateDto";
 import {petsSeed} from "./petsSeed";
+import BasePetsRepository from "./BasePetsRepository";
 
 
 const initialPets: any = petsSeed;
 
-export default class PetsInMemoryRepository extends BaseRepository implements PetsRepositoryInterface{
+export default class PetsInMemoryRepository extends BasePetsRepository {
     async createPet(petCreateDto: PetCreateDto): Promise<PetDto> {
         const petEntity = await petCreateDto.generateEntity();
         petEntity.id = `pet_${initialPets.length + 1}`;

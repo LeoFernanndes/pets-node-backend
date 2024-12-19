@@ -12,4 +12,5 @@ export class PetEntity extends BaseEntity {
     description: string;
     behavior: string;
     observations: string;
+    tutorId: string;
 }

@@ -1,1 +1,1 @@
-export default class BaseRepository {}
+export default abstract class BaseRepository {}

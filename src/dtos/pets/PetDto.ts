@@ -31,6 +31,7 @@ export default class PetDto extends BaseDto {
     description: string;
     behavior: string;
     observations: string;
+    tutorId: string
 
     constructor(data: any) {
         super();
@@ -44,6 +45,7 @@ export default class PetDto extends BaseDto {
         this.description = data.description;
         this.behavior = data.behavior;
         this.observations = data.observations || "";
+        this.tutorId = data.tutorId;
     }
 
     async generateEntity(): Promise<PetEntity> {
@@ -59,6 +61,7 @@ export default class PetDto extends BaseDto {
             petEntity.description = this.description;
             petEntity.behavior = this.behavior;
             petEntity.observations = this.observations;
+            petEntity.tutorId = this.tutorId;
             return petEntity;
         }
         return undefined;

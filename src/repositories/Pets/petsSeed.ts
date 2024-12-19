@@ -9,7 +9,8 @@ export const petsSeed = [
         "weight": "5",
         "description": "Cute and fluffy with a curly tail",
         "behavior": "friendly",
-        "observations": "Enjoys long walks in the park"
+        "observations": "Enjoys long walks in the park",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_2",
@@ -21,7 +22,8 @@ export const petsSeed = [
         "weight": "6",
         "description": "Sleek black coat with bright eyes",
         "behavior": "playful",
-        "observations": "Loves playing fetch"
+        "observations": "Loves playing fetch",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_3",
@@ -33,7 +35,8 @@ export const petsSeed = [
         "weight": "10",
         "description": "Golden retriever with a friendly demeanor",
         "behavior": "calm",
-        "observations": "Gets along well with other dogs"
+        "observations": "Gets along well with other dogs",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_4",
@@ -45,7 +48,8 @@ export const petsSeed = [
         "weight": "4",
         "description": "White fur with brown spots on ears",
         "behavior": "energetic",
-        "observations": "Needs a lot of playtime"
+        "observations": "Needs a lot of playtime",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_5",
@@ -57,7 +61,8 @@ export const petsSeed = [
         "weight": "8",
         "description": "Brindle coat with a playful personality",
         "behavior": "friendly",
-        "observations": "Loves to chase butterflies"
+        "observations": "Loves to chase butterflies",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_6",
@@ -69,7 +74,8 @@ export const petsSeed = [
         "weight": "9",
         "description": "Black and tan coat with a wagging tail",
         "behavior": "loving",
-        "observations": "Enjoys cuddling on the couch"
+        "observations": "Enjoys cuddling on the couch",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_7",
@@ -81,7 +87,8 @@ export const petsSeed = [
         "weight": "7",
         "description": "Fluffy golden fur with a friendly bark",
         "behavior": "playful",
-        "observations": "Likes playing with squeaky toys"
+        "observations": "Likes playing with squeaky toys",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_8",
@@ -93,7 +100,8 @@ export const petsSeed = [
         "weight": "3",
         "description": "Small and adorable with a sweet personality",
         "behavior": "gentle",
-        "observations": "Great with children"
+        "observations": "Great with children",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_9",
@@ -105,7 +113,8 @@ export const petsSeed = [
         "weight": "12",
         "description": "Sturdy build with a brindle coat",
         "behavior": "loyal",
-        "observations": "Protective of his family"
+        "observations": "Protective of his family",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_10",
@@ -117,7 +126,8 @@ export const petsSeed = [
         "weight": "6",
         "description": "Elegant white coat with a playful spirit",
         "behavior": "curious",
-        "observations": "Loves exploring the backyard"
+        "observations": "Loves exploring the backyard",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_11",
@@ -129,7 +139,8 @@ export const petsSeed = [
         "weight": "5",
         "description": "Dapple coat with a mischievous grin",
         "behavior": "energetic",
-        "observations": "Enjoys agility training"
+        "observations": "Enjoys agility training",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_12",
@@ -141,7 +152,8 @@ export const petsSeed = [
         "weight": "8",
         "description": "Sleek black coat with a gentle nature",
         "behavior": "calm",
-        "observations": "Loves sunbathing in the yard"
+        "observations": "Loves sunbathing in the yard",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_13",
@@ -153,7 +165,8 @@ export const petsSeed = [
         "weight": "7",
         "description": "Brown coat with a wagging tail",
         "behavior": "friendly",
-        "observations": "Enjoys car rides"
+        "observations": "Enjoys car rides",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_14",
@@ -165,7 +178,8 @@ export const petsSeed = [
         "weight": "4",
         "description": "Fluffy white fur with a sweet demeanor",
         "behavior": "loving",
-        "observations": "Loves being pampered"
+        "observations": "Loves being pampered",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_15",
@@ -177,7 +191,8 @@ export const petsSeed = [
         "weight": "11",
         "description": "Golden retriever with a friendly disposition",
         "behavior": "playful",
-        "observations": "Enjoys playing in the water"
+        "observations": "Enjoys playing in the water",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_16",
@@ -189,7 +204,8 @@ export const petsSeed = [
         "weight": "6",
         "description": "Red coat with a loving personality",
         "behavior": "gentle",
-        "observations": "Enjoys belly rubs"
+        "observations": "Enjoys belly rubs",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_17",
@@ -201,7 +217,8 @@ export const petsSeed = [
         "weight": "5",
         "description": "Adorable with a playful spirit",
         "behavior": "energetic",
-        "observations": "Loves chasing squirrels"
+        "observations": "Loves chasing squirrels",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_18",
@@ -213,7 +230,8 @@ export const petsSeed = [
         "weight": "9",
         "description": "Spotted coat with a friendly wag",
         "behavior": "calm",
-        "observations": "Enjoys sunbathing in the garden"
+        "observations": "Enjoys sunbathing in the garden",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_19",
@@ -225,7 +243,8 @@ export const petsSeed = [
         "weight": "8",
         "description": "Sturdy build with a playful attitude",
         "behavior": "loyal",
-        "observations": "Loves fetch and tug-of-war"
+        "observations": "Loves fetch and tug-of-war",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_20",
@@ -237,7 +256,8 @@ export const petsSeed = [
         "weight": "3",
         "description": "Fluffy gray coat with a gentle nature",
         "behavior": "calm",
-        "observations": "Enjoys bedtime cuddles"
+        "observations": "Enjoys bedtime cuddles",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_21",
@@ -249,7 +269,8 @@ export const petsSeed = [
         "weight": "10",
         "description": "Sable coat with a friendly bark",
         "behavior": "playful",
-        "observations": "Loves to chase balls"
+        "observations": "Loves to chase balls",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_22",
@@ -261,7 +282,8 @@ export const petsSeed = [
         "weight": "6",
         "description": "Small and sweet with a loving personality",
         "behavior": "gentle",
-        "observations": "Great with children"
+        "observations": "Great with children",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_23",
@@ -273,7 +295,8 @@ export const petsSeed = [
         "weight": "5",
         "description": "White coat with a playful demeanor",
         "behavior": "energetic",
-        "observations": "Enjoys agility training"
+        "observations": "Enjoys agility training",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_24",
@@ -285,7 +308,8 @@ export const petsSeed = [
         "weight": "7",
         "description": "Golden retriever with a friendly wag",
         "behavior": "loving",
-        "observations": "Loves belly rubs"
+        "observations": "Loves belly rubs",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_25",
@@ -297,7 +321,8 @@ export const petsSeed = [
         "weight": "12",
         "description": "Sleek black coat with a calm demeanor",
         "behavior": "calm",
-        "observations": "Great with other pets"
+        "observations": "Great with other pets",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_26",
@@ -309,7 +334,8 @@ export const petsSeed = [
         "weight": "4",
         "description": "Adorable with a playful spirit",
         "behavior": "playful",
-        "observations": "Loves to chase butterflies"
+        "observations": "Loves to chase butterflies",
+        "tutorId": "user_5"
     },
     {
         "id": "pet_27",
@@ -321,7 +347,8 @@ export const petsSeed = [
         "weight": "8",
         "description": "Brindle coat with a wagging tail",
         "behavior": "friendly",
-        "observations": "Enjoys long walks"
+        "observations": "Enjoys long walks",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_28",
@@ -333,7 +360,8 @@ export const petsSeed = [
         "weight": "9",
         "description": "Brown coat with a sweet temperament",
         "behavior": "gentle",
-        "observations": "Loves car rides"
+        "observations": "Loves car rides",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_29",
@@ -345,7 +373,8 @@ export const petsSeed = [
         "weight": "7",
         "description": "Golden fur with a playful nature",
         "behavior": "energetic",
-        "observations": "Enjoys playing in the snow"
+        "observations": "Enjoys playing in the snow",
+        "tutorId": "user_3"
     },
     {
         "id": "pet_30",
@@ -357,6 +386,7 @@ export const petsSeed = [
         "weight": "3",
         "description": "Fluffy white fur with a gentle demeanor",
         "behavior": "calm",
-        "observations": "Loves being pampered"
+        "observations": "Loves being pampered",
+        "tutorId": "user_3"
     }
 ]

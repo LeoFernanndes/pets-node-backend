@@ -19,4 +19,6 @@ export default class PetCreateDto extends PetDto {
     @IsNotEmpty()
     behavior: string;
     observations: string;
+    @IsNotEmpty()
+    tutorId: string;
 }
